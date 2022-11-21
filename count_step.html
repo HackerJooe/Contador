@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador(HTML,CSS E JS)</title>
+    <link rel="stylesheet" href="count_step.css">
+</head>
+<body>
+    <header>
+        Contador de Passos
+    </header>
+    <section>
+       <p>Start(Inicio):<input type="number" name="start" id="start" placeholder="Digite um valor numérico inicial"></p> 
+            
+        <p>End(Fim):<input type="number" name="end" id="end" placeholder="Digite um valor numérico final"></p>
+        
+        <p>Passos(Step):<input type="number" name="step" id="step" placeholder="Digite um valor numérico para o valor de salto"></p>
+        
+            <input type="button" id="count" value="Contar"
+            onclick="checkContar()">
+        
+
+        
+            <div id="res">  
+                Resultado do Contador
+            </div>
+        
+    </section>
+        
+    <footer>
+        <p>&copy; Messias Junior Front-End Dev's</p>
+    </footer>
+    <script src="count_script.js"></script>
+</body>
+</html>
